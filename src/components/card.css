@@ -1,0 +1,43 @@
+.card{
+    height: 200px;
+    width: 280px;
+    background: #EAF0F1;
+    box-shadow: 2px 2px 3px #535C68;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 600ms ease-in-out;
+    margin: 10px 20px;
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+
+.card h3{
+    padding-bottom: 20px;
+}
+
+
+@media(max-width:940px){
+    .card{
+        height: 100px;
+        width: 250px;
+        background: #EAF0F1;
+        box-shadow: 1px 1px 2px #535C68;
+        margin: 20px 30px;
+    }
+
+    .card h3{
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    .card p{
+        font-size: 12px;
+    }
+}
